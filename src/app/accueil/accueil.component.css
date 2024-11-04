@@ -1,0 +1,41 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #7430cde2; /* Light background color for the banner */
+    margin-bottom: 3rem; /* Space between banner and next section */
+}
+
+.programme h2 {
+    margin-bottom: 30px; /* Ajustez la valeur selon la quantité d'espace souhaitée */
+}
+
+.programme .list-group-item {
+    font-size: 1.1rem; /* Ajustez la valeur pour la taille souhaitée */
+    font-weight: 100;  /* Optionnel : rend le texte légèrement plus épais pour la lisibilité */
+}
+  
+  
+
+
+.programme-bg {
+    background-color: #7430cde2;
+    color: white;
+  }
+  
+  .programme-bg .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .programme-bg .list-group-item {
+    background-color: rgba(255, 255, 255, 0.15); /* Fond semi-transparent */
+    color: white; /* Texte en blanc */
+    border: 1px solid rgba(255, 255, 255, 0.25); /* Contour plus visible */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px;
+    margin-bottom: 8px; /* Espace entre les éléments */
+  }
+  
